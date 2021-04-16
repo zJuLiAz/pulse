@@ -121,7 +121,7 @@
                 margin-right: 20px;
             }
         }
-        &__list {
+        &__more {
             position: relative;
             width: 50%;
             margin-left: 20px;
@@ -130,11 +130,15 @@
             padding-right: 20px;
             padding-left: 19px;
             margin-bottom: 0;
-            list-style-type: none;
             &_active {
                 transform: translateX(-100%);
                 margin-left: 0px;
             }
+        }
+        &__list {
+            position: relative;
+            padding-left: 0;
+            list-style-type: none;
             li {
                 position: relative;
                 font-weight: 300;
